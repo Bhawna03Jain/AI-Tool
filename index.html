@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore a wide range of free online tools for image and PDF processing. Compress images, convert PDFs, merge files, and more with our easy-to-use tools.">
+    <meta name="keywords" content="image tools, PDF tools, online tools, image compressor, PDF converter, free tools">
+    <meta name="author" content="Your Name">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Online Tools - Image & PDF Processing">
+    <meta property="og:description" content="Explore a wide range of free online tools for image and PDF processing. Compress images, convert PDFs, merge files, and more with our easy-to-use tools.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1610563166150-b34df4f3bcd6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80">
+    <meta property="og:url" content="https://www.yourwebsite.com">
+    <link rel="canonical" href="https://www.yourwebsite.com">
+    <title>Online Tools - Image & PDF Processing</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        a {
+            text-decoration: none;
+            color: #007BFF;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Header */
+        header {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 60px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            font-weight: 600;
+        }
+
+        header p {
+            margin: 10px 0 0;
+            font-size: 1.2rem;
+            font-weight: 300;
+        }
+
+        /* Navigation */
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 15px 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: #fff;
+            margin: 0 20px;
+            font-size: 1.1rem;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #007BFF;
+        }
+
+        /* Hamburger Menu for Mobile */
+        .menu-icon {
+            display: none;
+            font-size: 1.5rem;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        /* Main Content */
+        main {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* Tool Categories */
+        .tool-category {
+            margin-bottom: 60px;
+        }
+
+        .tool-category h2 {
+            font-size: 2rem;
+            color: #007BFF;
+            border-bottom: 2px solid #007BFF;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+            font-weight: 600;
+        }
+
+        .tool-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+
+        .tool-card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .tool-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+        }
+
+        .tool-card a {
+            display: block;
+            color: inherit;
+        }
+
+        .tool-card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        .tool-card h3 {
+            font-size: 1.4rem;
+            margin: 20px 20px 10px;
+            color: #333;
+            font-weight: 600;
+        }
+
+        .tool-card p {
+            margin: 0 20px 20px;
+            color: #666;
+            font-size: 1rem;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 30px 0;
+            margin-top: 60px;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 1rem;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            header p {
+                font-size: 1rem;
+            }
+
+            nav {
+                flex-direction: column;
+                align-items: center;
+                padding: 10px 0;
+            }
+
+            nav a {
+                margin: 8px 0;
+                display: none;
+            }
+
+            nav a.active {
+                display: block;
+            }
+
+            .menu-icon {
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Online Tools</h1>
+        <p>Your one-stop solution for image and PDF processing</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+        <a href="#image-tools" class="active">Image Tools</a>
+        <a href="#pdf-tools">PDF Tools</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Image Tools Section -->
+        <section id="image-tools" class="tool-category">
+            <h2>Image Tools</h2>
+            <div class="tool-grid">
+                <div class="tool-card">
+                    <a href="/image-compressor.html" target="_blank">
+                        <img src="https://images.unsplash.com/photo-1610563166150-b34df4f3bcd6?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80" alt="Image Compressor">
+                        <h3>Image Compressor</h3>
+                        <p>Compress images without losing quality. Perfect for web use.</p>
+                    </a>
+                </div>
+                <div class="tool-card">
+                    <a href="/image-resizer" target="_blank">
+                        <img src="https://images.unsplash.com/photo-1611262588024-d12430b98920?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80" alt="Image Resizer">
+                        <h3>Image Resizer</h3>
+                        <p>Resize images to any dimension quickly and easily.</p>
+                    </a>
+                </div>
+                <div class="tool-card">
+                    <a href="/image-converter" target="_blank">
+                        <img src="https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80" alt="Image Converter">
+                        <h3>Image Converter</h3>
+                        <p>Convert images to different formats like JPG, PNG, and more.</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- PDF Tools Section -->
+        <section id="pdf-tools" class="tool-category">
+            <h2>PDF Tools</h2>
+            <div class="tool-grid">
+                <div class="tool-card">
+                    <a href="/pdf-compressor" target="_blank">
+                        <img src="https://images.unsplash.com/photo-1597589827317-4c6d6e0a90bd?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80" alt="PDF Compressor">
+                        <h3>PDF Compressor</h3>
+                        <p>Reduce the size of your PDF files without losing quality.</p>
+                    </a>
+                </div>
+                <div class="tool-card">
+                    <a href="/pdf-merger" target="_blank">
+                        <img src="https://images.unsplash.com/photo-1613243555988-441166d4d6fd?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80" alt="PDF Merger">
+                        <h3>PDF Merger</h3>
+                        <p>Merge multiple PDF files into a single document.</p>
+                    </a>
+                </div>
+                <div class="tool-card">
+                    <a href="/pdf-converter" target="_blank">
+                        <img src="https://images.unsplash.com/photo-1613243555988-441166d4d6fd?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80" alt="PDF Converter">
+                        <h3>PDF Converter</h3>
+                        <p>Convert PDFs to Word, Excel, or other formats.</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="tool-category">
+            <h2>About Us</h2>
+            <p>We provide a wide range of free online tools to help you process images and PDFs efficiently. Our tools are easy to use, fast, and secure.</p>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="tool-category">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or feedback, feel free to <a href="mailto:support@onlinetools.com">email us</a>.</p>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Online Tools. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Toggle mobile menu
+        function toggleMenu() {
+            const navLinks = document.querySelectorAll('nav a');
+            navLinks.forEach(link => {
+                link.classList.toggle('active');
+            });
+        }
+    </script>
+</body>
+</html>
