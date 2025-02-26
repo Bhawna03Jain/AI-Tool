@@ -4,6 +4,10 @@ pip install transformers
   Other Model
   ======================
   Einmalumdiewelt/T5-Base_GNAD
+  sshleifer/distilbart-cnn-12-6
+  philschmid/bart-large-cnn-samsum
+  slauw87/bart_summarisation
+  
 
   ***************************************************************
 from transformers import pipeline
