@@ -1,6 +1,11 @@
 pip install transformers
 
 ******************************************
+  Other Model
+  ======================
+  Einmalumdiewelt/T5-Base_GNAD
+
+  ***************************************************************
 from transformers import pipeline
 
 summarizer = pipeline("summarization", model="Falconsai/text_summarization")
